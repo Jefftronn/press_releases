@@ -1,0 +1,409 @@
+<link rel="stylesheet" type="text/css" href="/Portal/Common/PageLibrary/jScrollPane.css" />
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/start	/jquery-ui.css" />
+<link href="/portal/common/htmllibrary/certifiED/css/bootstrap.min.css" rel="stylesheet" />
+ <link rel="stylesheet" href="/portal/common/htmllibrary/certifiED/css/normalize.min.css" type="text/css" />
+
+
+<style>
+    *{
+            -webkit-box-sizing: inherit;
+            -moz-box-sizing: inherit;
+            box-sizing: inherit;
+        }
+        *:before,*:after{
+            -webkit-box-sizing: inherit;
+            -moz-box-sizing: inherit;
+            box-sizing: inherit;
+        }
+    body{background: #414141}
+        h1{font-size: 2em; color:#1581a0}
+        ul{margin-left:0;}
+        p{margin: 1em;}
+        .nav{
+            display: table;   
+        }
+    .nav>li {
+            padding-bottom:0;   
+        }
+.ui-widget-content a { color:#4BA146;}
+
+.ui-tabs-nav.ui-corner-all {border-bottom-left-radius:0;border-bottom-right-radius:0;}
+.ui-widget-content {border:none;}
+</style>
+<!--[if lt IE 7]>
+<style type="text/css">
+div.tweet {
+	background:none;
+    border:none;
+}
+div#twitIcon{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/portal/common/imagelibrary/twitter_64.png, sizingMethod=crop);
+}
+div#twitIcon img{
+	display:none;
+}
+</style>
+<![endif]-->
+
+<div id="main_container">
+
+<div id="header">
+	<img src="/portal/common/imagelibrary/header_AboutUs.jpg"/>
+</div><!-- #BeginLibraryItem "/Library/quicklinks_Press_Coverage.lbi" --><div id="left_sidebar">
+  <ul class="menu">
+    <li><a href="/Portal/desktopdefault.aspx?tabid=684&roleid=101" class="QuickLink">Media Center</a></li>
+    <li><a href="/Portal/desktopdefault.aspx?tabid=685&roleid=101" class="QuickLink">Contact Us</a></li>
+	<li><a href="/Portal/desktopdefault.aspx?tabid=686&roleid=101" class="QuickLink">Employment<br><img src="/Portal/Common/ImageLibrary/QuickLinks_Spacer.gif" alt="Spacer" width="17" height="10" border="0">Opportunities</a></li>
+	<li><a href="http://www.certiportblog.com" class="QuickLink">Certiport Blog</a></li>
+    <li><a href="/Portal/desktopdefault.aspx?page=common/pagelibrary/press_Releases.htm" class="QuickLink">Press Releases</a></li>
+    <li><a href="/Portal/desktopdefault.aspx?page=common/pagelibrary/Coverage.htm" class="QuickLink">Coverage</a></li>
+    <li><a href="/Portal/desktopdefault.aspx?page=common/pagelibrary/Management_Bios.htm" class="QuickLink">Management Bios</a></li>
+	<li><a href="/Portal/desktopdefault.aspx?page=common/pagelibrary/About_Directions.htm" class="QuickLink">Directions to Certiport</a></li>
+  </ul>
+</div>
+<!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/adboxes_AboutUs.lbi" --><div id="right_sidebar"> 
+	<!--<div><p class="CalloutQuote">Media Contact:</p>  
+		<div style="padding-left:20px;"><p>Allison Yrungaray<br/>
+		   626.841.1640<br/>
+		   <a href="mailto:allison@noticepr.com" class="CommandLink">allison@noticepr.com</a></p></div>
+	</div>-->
+	
+    <a href="/Locator" title="Locate a Certiport Authorized Testing Center">
+		<img src="/portal/common/imagelibrary/locator.jpg"/>
+	</a>
+	<br/><br/>
+	
+    
+    <div id="twitter-ticker" style="margin-left: 10px;">
+		<div id="top-bar">
+			<div id="twitIcon"><img src="/portal/common/imagelibrary/twitter_64.png" width="64" height="64" alt="Twitter icon"/></div>
+			<span style="font-size: 16px; font-weight: bold; color: #FFFFFF; position: relative; top: 10px; left: 65px;">Certitweets</span>
+		</div>
+		<div id="tweet-container"><img id="loading" src="/portal/common/imagelibrary/loading2.gif" width="16" height="11" alt="Loading..."/></div>
+		<div id="scroll"></div>
+	</div>
+    
+		<p class="CalloutQuote">Follow Certiport:<br>
+		<a href="http://twitter.com/certiport" target="_blank">
+			<img src="/Portal/Common/ImageLibrary/sidebar-twitter.jpg" height="23px" width="23px" alt="Certiport on Twitter" title="Certiport on Twitter"/>
+		</a> 
+		<a href="http://www.facebook.com/certiport" target="_blank">
+			<img src="/Portal/Common/ImageLibrary/sidebar-facebook.jpg" height="23px" width="23px" alt="Certiport on Facebook" title="Certiport on Facebook"/>
+		</a> 
+		<a href="http://www.linkedin.com/company/18021?trk=tyah" target="_blank">
+			<img src="/Portal/Common/ImageLibrary/sidebar-linkedin.jpg" height="23px" width="23px" alt="Certiport on LinkedIn" title="Certiport on LinkedIn"/>
+		</a> 
+		<a href="http://www.youtube.com/user/certiportcomms" target="_blank">
+			<img src="/Portal/Common/ImageLibrary/sidebar-youtube.jpg" height="23px" width="23px" alt="Certiport on Youtube" title="Certiport on Youtube"/>
+		</a>
+        <!--<a href="http://www.certiportblog.com" target="_blank">
+			<img src="/Portal/Common/ImageLibrary/sidebar-blog.jpg" height="23px" width="23px" alt="Certiport Blog" title="Certiport Blog"/></a>-->
+        </p>
+	</div><!-- #EndLibraryItem --><div id="main_content">
+<h1>Press Releases</h1>
+	
+	<!--<img src="/portal/common/imagelibrary/press_release_tabs_2013.jpg" alt="Navigation Tabs" name="navigationTabs" width="486" height="37" usemap="#tabs"/>
+	<map name="tabs">
+		<area shape="poly" coords="0,0, 63,0, 63,37, 0,37, 0,0" href="/portal/desktopdefault.aspx?page=common/pagelibrary/press_Releases.htm"/>
+		<area shape="poly" coords="63,0, 125,0, 125,37, 63,37, 63,0" href="/portal/desktopdefault.aspx?page=common/pagelibrary/press_Releases2012.htm"/>
+		<area shape="poly" coords="125,0, 186,0, 186,37, 125,37, 125,0" href="/portal/desktopdefault.aspx?page=common/pagelibrary/press_Releases2011.htm"/>
+		<area shape="poly" coords="188,0, 251,0, 251,37, 188,37, 188,0" href="/portal/desktopdefault.aspx?page=common/pagelibrary/press_Releases2010.htm"/>
+		<area shape="poly" coords="251,0, 314,0, 314,37, 251,37, 251,0" href="/portal/desktopdefault.aspx?page=common/pagelibrary/press_Releases2009.htm"/>
+		<area shape="poly" coords="314,0, 377,0, 377,37, 314,37, 314,0" href="/portal/desktopdefault.aspx?page=common/pagelibrary/press_Releases2008.htm"/>
+	</map>
+	<div role="tabpanel" id="pressYear">
+	<ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#press2016" aria-controls="home" role="tab" data-toggle="tab">2016</a></li>
+		<li role="presentation"><a href="#press2015" aria-controls="home" role="tab" data-toggle="tab">2015</a></li>
+		<li role="presentation"><a href="#press2014" aria-controls="home" role="tab" data-toggle="tab">2014</a></li>
+		<li role="presentation"><a href="#press2013" aria-controls="home" role="tab" data-toggle="tab">2013</a></li>
+		<li role="presentation"><a href="#press2012" aria-controls="home" role="tab" data-toggle="tab">2012</a></li>
+    </ul>
+    </div>-->
+     
+<div class="tab-content">
+<div id="press2016" role="tabpanel" class="tab-pane fade in active">
+    
+  <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_030216-Certiport-Releases-IC3-GS5.html" class="CommandLink">Certiport Releases IC3 Digital Literacy Certification Global Standard 5</a><br>
+  <em>Certiport Updates IC3 Certification Exams as Digital Standards and Requirements Advance...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_030216-Certiport-Releases-IC3-GS5.html" title="Certiport Releases IC3 Digital Literacy Certification Global Standard 5"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+  <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_020416-Certiport-Announces-CERTIFIED-2016.html" class="CommandLink">Certiport Announces CERTIFIED 2016 Annual Educator Conference</a><br>
+  <em>Professional Development Conference Helps Educators Bring the Full Promise and Potential of Technology Certification to the Classroom...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_020416-Certiport-Announces-CERTIFIED-2016.html" title="Certiport to Provide Autodesk Certification for Professionals"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+  
+  <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_020316-Certiport-to-Provide-Autodesk-Certification-for-Professionals.html" class="CommandLink">Certiport to Provide Autodesk Certification for Professionals</a><br>
+  <em>Certiport has delivered the Autodesk Certified User exams since 2011 and will now expand that offering to include the ACP exams...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_020316-Certiport-to-Provide-Autodesk-Certification-for-Professionals.html" title="Certiport to Provide Autodesk Certification for Professionals"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+   <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_012016-Certiport-Announces-2016-ACA-World-US-Championships.html" class="CommandLink">Certiport Announces 2016 Adobe Certified Associate U.S. National and World Championships</a><br>
+  <em>The ACA World Championship is designed to showcase digital communications skills and promote industry certification...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_012016-Certiport-Announces-2016-ACA-World-US-Championships.html" title="Certiport Announces 2016 Adobe Certified Associate U.S. National and World Championships"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+</div>
+    
+<div id="press2015" role="tabpanel" class="tab-pane fade">
+    
+  <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_121815-Certiport-2016-Microsoft-Office-Specialist-US-Championship.html" class="CommandLink">Certiport Announces 2016 Microsoft Office Specialist U.S. National Championship</a><br>
+  <em>We are thrilled to once again expand the MOS U.S. National Championship...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_121815-Certiport-2016-Microsoft-Office-Specialist-US-Championship.html" title="Certiport Announces 2016 Adobe Certified Associate U.S. National and World Championships"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+  
+  <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_120915-Certiport-Launches-2016-Autodesk-World-Championship.html" class="CommandLink">Certiport Launches 2016 Autodesk Certified User World Championship</a><br>
+  <em>Global Online Competition to Recognize Students who Excel in 2D and 3D Design...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_120915-Certiport-Launches-2016-Autodesk-World-Championship.html" title="Global Online Competition to Recognize Students who Excel in 2D and 3D Design"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+  
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_111715-certiport-launches-ic3-spark-certification.html" class="CommandLink">Certiport Launches IC3 Spark Digital Literacy Certification for Primary and Middle School Age Students</a><br>
+    <em>IC3 Spark is a new certification specifically designed to build a solid foundation in digital concepts for primary and middle school age children...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_111715-certiport-launches-ic3-spark-certification.html" title="Certiport Names 2015 Autodesk Certified User World Champions from Brazil and USA"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_102615-certiport-anounces-2015-acu-world-champions.html" class="CommandLink">Certiport Names 2015 Autodesk Certified User World Champions from Brazil and USA</a><br>
+    <em>Inaugural Competition Recognizes Students with Marketable 2D and 3D Design Skills...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_102615-certiport-anounces-2015-acu-world-champions.html" title="Certiport Names 2015 Autodesk Certified User World Champions from Brazil and USA"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_092315-certiport-announces-2016-mos-inda-championships.html" class="CommandLink">Certiport Announces 2016 Microsoft Office Specialist India Championship</a><br>
+    <em>Thousands of Youth Expected to Enter to Prove Expertise in Microsoft Word, Excel, and PowerPoint...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_092315-certiport-announces-2016-mos-inda-championships.html" title="Certiport Announces 2016 Microsoft Office Specialist India Championship"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+  
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_081315-taiwan-student-named-aca-world-champion.html" class="CommandLink">Certiport Names Adobe Certified Associate World Champion from Taiwan</a><br>
+	<em>33 student designers from 17 countries compete for top prize in visual communication using Adobe Photoshop, Illustrator and InDesign...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_081315-taiwan-student-named-aca-world-champion.html" title="Best in U.S. in Microsoft Word, Microsoft Excel and Microsoft PowerPoint Advance to World Championship"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_081715-certiport-names-mos-world-champions.html" class="CommandLink">Certiport Names Microsoft Office Specialist World Champions</a><br>
+	<em>Microsoft Word, Excel and PowerPoint Winners Top 600,000 Participants Worldwide...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_081715-certiport-names-mos-world-champions.html" title="Best in U.S. in Microsoft Word, Microsoft Excel and Microsoft PowerPoint Advance to World Championship"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_081715-student-from-hong-kong-named-mos-world-champion-in-word-2013.html" class="CommandLink">Certiport Names Student from Hong Kong Microsoft Word 2013 World Champion</a><br>
+	<em>Microsoft Word Winner Tops 600,000 Participants Worldwide...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_081715-student-from-hong-kong-named-mos-world-champion-in-word-2013.html" title="Best in U.S. in Microsoft Word, Microsoft Excel and Microsoft PowerPoint Advance to World Championship"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_081715-student-from-dominican-republic-named-mos-world-champion-in-word-2010.html" class="CommandLink">Certiport Names Student from Dominican Republic Microsoft Word 2010 World Champion</a><br>
+	<em>Microsoft Word Winner Tops 600,000 Participants Worldwide...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_081715-student-from-dominican-republic-named-mos-world-champion-in-word-2010.html" title="Best in U.S. in Microsoft Word, Microsoft Excel and Microsoft PowerPoint Advance to World Championship"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_081715-student-from-singapore-named-mos-world-champion-in-excel-2013.html" class="CommandLink">Certiport Names Student from Singapore Microsoft Excel 2013 World Champion</a><br>
+	<em>Microsoft Excel Winner Tops 600,000 Participants Worldwide...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_081715-student-from-singapore-named-mos-world-champion-in-excel-2013.html" title="Best in U.S. in Microsoft Word, Microsoft Excel and Microsoft PowerPoint Advance to World Championship"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_081715-student-from-macau-named-mos-world-champion-in-excel-2010.html" class="CommandLink">Certiport Names Student from Macau Microsoft Excel 2010 World Champion</a><br>
+	<em>Microsoft Excel Winner Tops 600,000 Participants Worldwide...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_081715-student-from-macau-named-mos-world-champion-in-excel-2010.html" title="Best in U.S. in Microsoft Word, Microsoft Excel and Microsoft PowerPoint Advance to World Championship"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_081715-student-from-thailand-named-mos-world-champion-in-powerpoint-2013.html" class="CommandLink">Certiport Names Student from Thailand Microsoft PowerPoint 2013 World Champion</a><br>
+	<em>Microsoft Excel Winner Tops 600,000 Participants Worldwide...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_081715-student-from-thailand-named-mos-world-champion-in-powerpoint-2013.html" title="Best in U.S. in Microsoft Word, Microsoft Excel and Microsoft PowerPoint Advance to World Championship"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_081715-student-from-malaysia-named-mos-world-champion-in-powerpoint-2010.html" class="CommandLink">Certiport Names Student from Malaysia Microsoft PowerPoint 2010 World Champion</a><br>
+	<em>Microsoft Excel Winner Tops 600,000 Participants Worldwide...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_081715-student-from-malaysia-named-mos-world-champion-in-powerpoint-2010.html" title="Best in U.S. in Microsoft Word, Microsoft Excel and Microsoft PowerPoint Advance to World Championship"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>  
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_072715-aca-us-championship-winners.html" class="CommandLink">Certiport Names Adobe Certified Associate U.S. National Champions</a><br>
+	<em>Top Winners to Demonstrate Digital Design Skills at World Championship in Dallas, Texas...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_072715-aca-us-championship-winners.html" title="Best in U.S. in Microsoft Word, Microsoft Excel and Microsoft PowerPoint Advance to World Championship"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+  
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_062215-mos-us-championship-winners.html" class="CommandLink">Certiport Names Microsoft Office Specialist U.S. National Champions</a><br>
+	<em>Best in U.S. in Microsoft Word, Microsoft Excel and Microsoft PowerPoint Advance to World Championship...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_062215-mos-us-championship-winners.html" title="Best in U.S. in Microsoft Word, Microsoft Excel and Microsoft PowerPoint Advance to World Championship"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+  
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_052615-mos-india-championship-winners.html" class="CommandLink">Certiport Names Microsoft Office Specialist India Champions</a><br>
+	<em>Microsoft Word, Excel and PowerPoint Winners Invited to Dallas, Texas, USA for MOS World Championship...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_052615-mos-india-championship-winners.html" title="Microsoft Word, Excel and PowerPoint Winners Invited to Dallas, Texas, USA for MOS World Championship"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_051115-ron-clark_final-keynote_certified-conference.html" class="CommandLink">Certiport Announces Ron Clark as Final Keynote Speaker at 2015 CERTIFIED Educator Conference</a><br>
+	<em>Conference to Focus on Bringing the Full Power and Potential of Technology Certification to the Classroom...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_051115-ron-clark_final-keynote_certified-conference.html" title="Conference to Focus on Bringing the Full Power and Potential of Technology Certification to the Classroom"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_050615-student-designers-to-compete-in-texas.html" class="CommandLink">Student Designers to Compete for Adobe Certified Associate World Champion Title in Dallas, Texas</a><br>
+	<em>August ACA Championship to Feature Room to Read as Non-Profit Client...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_050615-student-designers-to-compete-in-texas.html" title="Inaugural Global Online Competition Will Recognize Students with Marketable 2D and 3D Design Skills"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_042815-certiport-announces-autodesk-world-championship.html" class="CommandLink">Certiport Announces 2015 Autodesk Certified User World Championship</a><br>
+	<em>Inaugural Global Online Competition Will Recognize Students with Marketable 2D and 3D Design Skills...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_042815-certiport-announces-autodesk-world-championship.html" title="Inaugural Global Online Competition Will Recognize Students with Marketable 2D and 3D Design Skills"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_040815-certiport-takes-submissions-for-aca-national-championship.html" class="CommandLink">Certiport Takes Submissions for 2015 Adobe Certified Associate U.S. National Championship</a><br>
+	<em>Competition Designed to Showcase Digital Communications Skills and Promote Industry Certification...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_040815-certiport-takes-submissions-for-aca-national-championship.html" title="Certiport Takes Submissions for 2015 Adobe Certified Associate U.S. National Championship"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_013015-Certiport-announces-CertifED.html" class="CommandLink">Certiport Announces Inaugural CERTIFIED Educator Conference</a><br>
+	<em>Conference to Focus on Bringing the Full Power and Potential of Technology Certification to the Classroom...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_013015-Certiport-announces-CertifED.html" title="Microsoft and Certiport announce 2015 Microsoft Office Specialist World Championship"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+        
+</div>
+	
+<div id="press2014" role="tabpanel" class="tab-pane fade">
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_121514-Certiport-announces-2015-MOS-US-Championship.html" class="CommandLink">Certiport Announces 2015 Microsoft Office Specialist U.S. National Championship </a><br>
+	<em>Competition to Name Best in U.S. in Microsoft Word, Excel, and PowerPoint...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_121514-Certiport-announces-2015-MOS-US-Championship.html" title="Microsoft and Certiport announce 2015 Microsoft Office Specialist World Championship"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_111814-Microsoft-and-Certiport-announce-2015-MOS-World-Championship.html" class="CommandLink">Microsoft and Certiport announce 2015 Microsoft Office Specialist World Championship</a><br>
+	<em>August 2015 competition to attract hundreds of thousands of competitors worldwide to prove expertise in Microsoft Word, Excel and PowerPoint...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_111814-Microsoft-and-Certiport-announce-2015-MOS-World-Championship.html" title="Microsoft and Certiport announce 2015 Microsoft Office Specialist World Championship"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+	
+	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_111414-Certiport-announces-MOS-India-championship.html" class="CommandLink">Certiport Announces 2015 Microsoft Office Specialist India Championship</a><br>
+	<em>Competition to Attract Thousands of Competitors to Prove Expertise in Microsoft Word, Excel, and PowerPoint...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_111414-Certiport-announces-MOS-India-championship.html" title="Competition to Attract Thousands of Competitors to Prove Expertise in Microsoft Word, Excel, and PowerPoint"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+	
+	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_103014-Certiport-Autodesk-team-with-PLTW.html" class="CommandLink">Certiport, Autodesk Team With Project Lead The Way (PLTW) to Expand Access to Industrial Certification</a><br>
+	<em>Project Lead The Way announced a partnership with Autodesk and Certiport that will expand PLTW teacher and student access to industrial certification in the leading suite of 3D design software programs from Autodesk...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_103014-Certiport-Autodesk-team-with-PLTW.html" title="Certiport IC3 Digital Literacy Certification Endorsed by National Coalition of Certification Centers"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+	
+	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_102014-Certiport-IC3-endorsed-by-NC3.html" class="CommandLink">Certiport IC3 Digital Literacy Certification Endorsed by National Coalition of Certification Centers</a><br>
+	<em>NC3 will make IC3 the digital skills component of their set of stackable credentials...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_102014-Certiport-IC3-endorsed-by-NC3.html" title="Certiport IC3 Digital Literacy Certification Endorsed by National Coalition of Certification Centers"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+	
+	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_092414-ho-chi-minh-city-launches-ic3-certification.html" class="CommandLink">Ho Chi Minh City in Vietnam Launches IC3 Digital Literacy Certification For All Primary, Secondary and Post-Secondary Students</a><br>
+	<em>Department of Education and Training requires students and teachers take IC3 to build a competitive workforce for the global economy...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_092414-ho-chi-minh-city-launches-ic3-certification.html" title="Ho Chi Minh City in Vietnam Launches IC3 Digital Literacy Certification For All Primary, Secondary and Post-Secondary Students"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_073114-mos-world-champions.html" class="CommandLink">Microsoft Office Specialist World Champions Named in Anaheim, CA</a><br>
+	<em>Microsoft Excel, Microsoft PowerPoint and Microsoft Word winners top 400,000 participants Worldwide...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_073114-mos-world-champions.html" title="Microsoft Office Specialist World Champions Named in Anaheim, CA"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+	
+	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_073114-macau-student-named-aca-world-champion.html" class="CommandLink">Student from Macau Named Adobe Certified Associate World Champion</a><br>
+	<em>Student wins top prize over 32 international finalists for visual communication using Adobe Photoshop, Illustrator and InDesign...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_073114-macau-student-named-aca-world-champion.html" title="Student from Macau Named Adobe Certified Associate World Champion"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_072114-us-students-to-compete-at-aca-world-championship.html" class="CommandLink">Three U.S. Students to Compete for Adobe Certified Associate World Champion Title in Anaheim, CA</a><br>
+	<em>Adobe Sponsors Competition and Kiva Serves as Client for 32 Student Competitors from 17 Countries...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_072114-us-students-to-compete-at-aca-world-championship.html" title="Three U.S. Students to Compete for Adobe Certified Associate World Champion Title in Anaheim, CA"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+	
+	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_062414-us-students-to-compete-at-mos-world-championship.html" class="CommandLink">Six U.S. Students to Compete for Microsoft Office Specialist World Champion Title in Anaheim, CA</a><br>
+	<em>Certiport announces winners at U.S. National Championship from over 300,000 competitors in Microsoft Word, Microsoft Excel and Microsoft PowerPoint...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_062414-us-students-to-compete-at-mos-world-championship.html" title="Six U.S. Students to Compete for Microsoft Office Specialist World Champion Title in Anaheim, CA"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+
+	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_032414-certiport-to-manage-adobe-certified-expert-program.html" class="CommandLink">Certiport to Manage Adobe Certified Expert Program</a><br>
+	<em>Certiport, a Pearson VUE business, to Manage Sales, Marketing and Exam Development for ACE Program...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_032414-certiport-to-manage-adobe-certified-expert-program.html" title="Certiport to Manage Adobe Certified Expert Program"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+	
+	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_031714-certiport-partners-with-autodesk-on-design-the-future-program.html" class="CommandLink">Certiport Partners with Autodesk on Design the Future Program</a><br>
+	<em>Educators Gain Access to Free Autodesk Certified User Training and Certification Materials to Support President Obama's ConnectED Initiative...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_031714-certiport-partners-with-autodesk-on-design-the-future-program.html" title="Certiport Partners with Autodesk on Design the Future Program"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+	
+	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_031014-measureup-launches-online-practice-labs-for-hands-on-technology-certification-preparation.html" class="CommandLink">MeasureUp Launches Online Practice Labs for Hands-On Technology Certification Preparation</a><br>
+    <em>Cloud-based Labs Available Anytime and Anywhere for Hands-on Training to Prepare for Industry Leading IT Pro Certification Exams...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_031014-measureup-launches-online-practice-labs-for-hands-on-technology-certification-preparation.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_030314-certiport-announces-adobe-certified-specialist-certificate.html" class="CommandLink">Certiport Announces Adobe Certified Specialist Certificate</a><br>
+    <em>Resume-Building Certificate Awarded to Individuals Who Earn Three Qualifying ACA Certifications...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_030314-certiport-announces-adobe-certified-specialist-certificate.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+</div>
+
+<div id="press2013" role="tabpanel" class="tab-pane fade">	
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_120213-certiport-announces-autodesk-maya-3ds-max-certification-exams.html" class="CommandLink">Certiport Announces Availability of Autodesk Maya and 3ds Max Certification Exams</a><br>
+    <em>Autodesk Certified User Certification Program Expands to Include Popular 3D Animation and Modeling Software...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_120213-certiport-announces-autodesk-maya-3ds-max-certification-exams.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_110413-certiport-launches-2014-microsoft-office-specialist-world-championship.html" class="CommandLink">Certiport Launches 2014 Microsoft Office Specialist World Championship</a><br>
+    <em>Competition to attract hundreds of thousands of competitors worldwide to prove Word, Excel and PowerPoint expertise...</em> <a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_110413-certiport-launches-2014-microsoft-office-specialist-world-championship.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_080613-mos-world-champions-named-in-washington-dc.html" class="CommandLink">Microsoft Office Specialist World Champions Named in Washington, D.C.</a><br/> 
+    <em>Microsoft PowerPoint, Microsoft Excel and Microsoft Word winners top a record 344,000 participants...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080613-mos-world-champions-named-in-washington-dc.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+        <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_080613-student-from-nepal-named-mos-world-champion-in-excel-2010.html" class="CommandLink">Student from Nepal Named Microsoft Excel 2010 World Champion</a><br/> 
+    <em>Certiport recognized gold medalist Himal Shrestha at the Microsoft Office Specialist World Championship Student Awards Ceremony in Washington, D.C....</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080613-student-from-nepal-named-mos-world-champion-in-excel-2010.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+        <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_080613-student-from-china-named-mos-world-champion-in-excel-2007.html" class="CommandLink">Student from China Named Microsoft Excel 2007 World Champion</a><br/> 
+    <em>Certiport recognized gold medalist Sicheng Wen at the Microsoft Office Specialist World Championship Student Awards Ceremony in Washington, D.C....</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080613-student-from-china-named-mos-world-champion-in-excel-2007.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p> 
+    
+        <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_080613-student-from-macao-named-mos-world-champion-in-word-2010.html" class="CommandLink">Student from Macao Named Microsoft Word 2010 World Champion</a><br/> 
+    <em>Certiport recognized gold medalist Ka Fai Wong at the Microsoft Office Specialist World Championship Student Awards Ceremony in Washington, D.C....</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080613-student-from-macao-named-mos-world-champion-in-word-2010.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+        <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_080613-student-from-UK-named-mos-world-champion-in-word-2007.html" class="CommandLink">Student from United Kingdom Named Microsoft Word 2007 World Champion</a><br/> 
+    <em>Certiport recognized gold medalist Kieran Youngman at the Microsoft Office Specialist World Championship Student Awards Ceremony in Washington, D.C....</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080613-student-from-UK-named-mos-world-champion-in-word-2007.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+        <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_080613-student-from-czech-republic-named-mos-world-champion-in-powerpoint-2010.html" class="CommandLink">Student from Czech Republic Named Microsoft PowerPoint 2010 World Champion</a><br/> 
+    <em>Certiport recognized gold medalist Jiri Houzvicka at the Microsoft Office Specialist World Championship Student Awards Ceremony in Washington, D.C...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080613-student-from-czech-republic-named-mos-world-champion-in-powerpoint-2010.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+        <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_080613-student-from-taiwan-named-mos-world-champion-in-powerpoint-2007.html" class="CommandLink">Student from Taiwan Named Microsoft PowerPoint 2007 World Champion</a><br/> 
+    <em>Certiport recognized gold medalist Cheng Shu Mei at the Microsoft Office Specialist World Championship Student Awards Ceremony in Washington, D.C....</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080613-student-from-taiwan-named-mos-world-champion-in-powerpoint-2007.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_080513-korean-student-named-aca-world-champion-in-photoshop.html" class="CommandLink">Student from Korea Named Adobe Certified Associate World Champion in Photoshop</a><br/> 
+    <em>Student wins top prize over 21 international finalists for visual communication using Adobe Photoshop...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080513-korean-student-named-aca-world-champion-in-photoshop.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="http://www.measureup.com/News/MeasureUp_Official_VMware_Practice_Test.aspx" target="_blank" class="CommandLink">MeasureUp Named Official Practice Exam Provider for VMware Certification</a><br/> 
+    <em>MeasureUp practice tests for VMware certification will support candidates with critical assessment and remediation tools, providing the confidence to pass these rigorous exams...</em> <a href="http://www.measureup.com/News/MeasureUp_Official_VMware_Practice_Test.aspx" target="_blank"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_070113-certiport-aca-world-championship-to-feature-global-fund-for-children.html" class="CommandLink">Certiport Adobe Certified Associate World Championship to Feature Global Fund for Children</a><br/> 
+    <em>Adobe Sponsors Inaugural Competition and Global Fund for Children Serves as Client for Student Championship Entries...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_070113-certiport-aca-world-champtionship-to-feature-global-fund-for-children.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_062413-six-us-students-compete-for-mos-champion-title.html" class="CommandLink">Six U.S. Students to Compete for Microsoft Office Specialist World Champion Title in Washington, D.C. </a><br/> 
+    <em>Certiport names winners at U.S. National Championship from 140,000 competitors in Microsoft Word, Microsoft Excel and Microsoft PowerPoint ...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_062413-six-us-students-compete-for-mos-champion-title.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+   	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_061413-certiport- to-name-mos-us-national-champions-in-park-city.html" class="CommandLink">Certiport to Name Microsoft Office Specialist U.S. National Champions in Park City</a><br/> 
+    <em>Top 28 U.S. students compete in Microsoft Word, Microsoft Excel and Microsoft PowerPoint to prove expert skills and win a trip to Washington, D.C. for Worldwide Championship...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_061413-certiport- to-name-mos-us-national-champions-in-park-city.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_052013-marshalls-university-college-accredited-as-catc.html" class="CommandLink">Marshalls University College is accredited as a Certiport Authorized Testing Centre</a><br/> 
+    <em>Marshalls University College today announced its collaboration with Certiport, a Pearson VUE business, to offer IT certification programs to its students and the general public in Ghana...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_052013-marshalls-university-college-accredited-as-catc.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+  	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_031213-certiport-announces-availability-of-mos-2013.html" class="CommandLink">Certiport Announces Availability of Microsoft Office Specialist 2013 Certification</a><br/> 
+    <em>New MOS Exams Lead the Industry in Performance-Based Certification Testing...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_031213-certiport-announces-availability-of-mos-2013.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release-031213-certiport-announces-autodesk-revit-architecture-exam.html" class="CommandLink">Certiport Announces Availability of Autodesk Revit Architecture Certification Exam</a><br/> 
+    <em>Autodesk Certified User Certification Program Expands to Include Popular Building Information Modeling Software...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release-031213-certiport-announces-autodesk-revit-architecture-exam.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_020713.html" class="CommandLink">FBLA-PBL Adds Microsoft Office Specialist Certifications as Pilot NLC Events </a><br> 
+    <em>FBLA-PBL and Certiport partner to tie NLC Competitive Events directly to globally recognized industry certifications...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_020713.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+   	<p><a href="/portal/desktopdefault.aspx?page=Common/PageLibrary/release_011613.html" class="CommandLink">Certiport Launches Inaugural Adobe Certified Associate World Championship </a><br> 
+    <em>Annual Competition Designed to Showcase Digital Communications Skills and Promote Industry Certification...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_011613.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+</div>
+<div id="press2012" role="tabpanel" class="tab-pane fade"><p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_090412.html" class="CommandLink">Certiport Announces Availability of Microsoft Office 365 Certification Exam</a><br> 
+    <em>New Exam Becomes an Integral Part of the Microsoft Office Specialist Certification Suite...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_090412.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080112_2.html" class="CommandLink">Washington Superintendent of Public Instruction Honored with Champions of Digital Literacy Award</a><br> 
+    <em>Certiport recognizes Randy Dorn for work in promoting Microsoft Office Specialist and Microsoft Technology Associate certifications for Washington students...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080112_2.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080112_8.html" class="CommandLink">Microsoft Office World Champions Named in Las Vegas</a><br> 
+    <em>Certiport Worldwide Competition on Microsoft Office names six winners from a record 285,000 participants...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080112_8.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080112_4.html" class="CommandLink">Certiport Names Student from Vietnam &quot;World Champion&quot; in Microsoft Word 2010</a><br> 
+    <em>Students from 53 countries compete in Certiport Worldwide Competition on Microsoft Office...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080112_4.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080112_6.html" class="CommandLink">Certiport Names Student from China &quot;World Champion&quot; in Microsoft Excel 2010</a><br> 
+    <em>Students from 53 countries compete in Certiport Worldwide Competition on Microsoft Office...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080112_6.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080112_1.html" class="CommandLink">Certiport Names Student from United States &quot;World Champion&quot; in Microsoft PowerPoint 2010</a><br> 
+    <em>Students from 53 countries compete in Certiport Worldwide Competition on Microsoft Office...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080112_1.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080112_3.html" class="CommandLink">Certiport Names Student from Singapore &quot;World Champion&quot; in Microsoft Word 2007</a><br> 
+    <em>Students from 53 countries compete in Certiport Worldwide Competition on Microsoft Office...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080112_3.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080112_5.html" class="CommandLink">Certiport Names Student from Peru &quot;World Champion&quot; in Microsoft Excel 2007</a><br> 
+    <em>Students from 53 countries compete in Certiport Worldwide Competition on Microsoft Office...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080112_5.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080112_7.html" class="CommandLink">Certiport Names Student from Taiwan &quot;World Champion&quot; in Microsoft PowerPoint 2007</a><br> 
+    <em>Students from 53 countries compete in Certiport Worldwide Competition on Microsoft Office...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_080112_7.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_073112_2.html" class="CommandLink">Certified Ghana Educators Honored with Champion of Digital Literacy Award</a><br> 
+    <em>Certiport recognizes Timothy Adei and Ransford Mensah of Certified Ghana for promoting digital literacy...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_073112_2.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_073112_1.html" class="CommandLink">Texas Educator Named North America Teacher of the Year</a><br> 
+    <em>Certiport honors Chuck Silvertooth of Jacksonville High School for advancing technology certification...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_073112_1.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_071012.html" class="CommandLink">Six U.S. Students to Compete for Microsoft Office World Champion Title in Las Vegas</a><br> 
+    <em>Certiport names U.S. champions for mastery of Microsoft Office Word, Excel and PowerPoint...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_071012.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_062612.html" class="CommandLink">Certiport Updates Internet and Computing Core Certification (IC&sup3;) with Next Global Standard for Digital Literacy</a><br> 
+    <em>Internationally recognized digital literacy certification validates computer skills needed in today's academic and business environments...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_062612.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_062512.html" class="CommandLink">Certiport Offers Adobe Certified Associate Exams for Adobe Creative Suite 6</a><br> 
+    <em>Industry-recognized ACA certification validates knowledge of the latest in digital media technology...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_062512.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+ 	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_051612.html" class="CommandLink">Pearson VUE Acquires Certiport</a><br> 
+    <em>Leaders in Computer-Based Testing Join Forces to Expand Professional Learning and Assessment Solutions Globally...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_051612.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_042312.html" class="CommandLink">Certiport Announces Availability of Intuit QuickBooks 2012 Certification </a><br> 
+    <em>New certification prepares students in the U.S. and Canada for today's workforce as QuickBooks 2012 experts...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_042312.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_041312.html" class="CommandLink">Taiwan students have won the world championship for four consecutive years</a><br> 
+    <em>2012 MOS Worldwide Competition is coming soon, Taiwan team has won the world championship for four consecutive years...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_041312.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_040312.html"  class="CommandLink">Fishbowl's CAM Foundation Offers Scholarship in Australia</a><br> 
+    <em>CAM Foundation, Fishbowl and Certiport team up to offer software training to underserved individuals in Australia...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_040312.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+   	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_032112.html"  class="CommandLink">Certiport Partners with Future Business Leaders of America to Offer Members Opportunity to Compete in Worldwide Competition on Microsoft Office</a><br> 
+    <em>Microsoft Office Specialist Certification Exams to be Offered at FBLA National Leadership Conference...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_032112.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_030612.html"  class="CommandLink">Microsoft SharePoint<sup>&reg;</sup> 2010 and OneNote<sup>&reg;</sup> 2010 Added as Electives for MOS Master Certification</a><br> 
+    <em>Certiport and Microsoft Give MOS Master Candidates Greater Choice as they Validate Microsoft Office<sup>&reg;</sup> 2010 Skills...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_030612.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+    <p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_030112.html"  class="CommandLink">Certiport Welcomes EU Commission at Successful European Regional Summit in Barcelona</a><br> 
+    <em>Industry Leaders Comment on ICT Skills Development and Certification Initiatives in Europe...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_030112.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_022312.html"  class="CommandLink">HP launches Institute programme to increase IT skills and enhance student employability</a><br> 
+    <em>Bridging the UK IT skills gap with Certiport, aiming to certify over 20,000 people...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_022312.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_022012.html"  class="CommandLink">HP Launches Institute Program to Increase IT Skills and Employability Worldwide</a><br> 
+    <em>Bridging the IT skills gap with Certiport through the HP Accredited Technical Associate...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_022012.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_021612.html"  class="CommandLink">Certiport Partners with Business Professionals of America to Offer Members Opportunity to Compete in Worldwide Competition on Microsoft Office</a><br> 
+    <em>Microsoft Office Specialist and Microsoft Technology Associate Certification Exams to be delivered at BPA National Leadership Conference...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_021612.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_021312.html"  class="CommandLink">Humber is the First Ontario College to Offer Adobe Certified Associate Program</a><br> 
+    <em>Humber College Institute of Technology & Advanced Learning's School of Media Studies & Information Technology is partnering with Certiport and Bnr-Education Inc....</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_021312.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_020812.html"  class="CommandLink">Certiport Recognizes Five High School Students in Kansas State<br>Scholarship Program</a><br> 
+    <em>Winners of Certiport-Sponsored Scholarship Program Chosen Based on Certification and Essay Submissions...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_020812.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+    
+	<p><a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_012012.html"  class="CommandLink">Demand for Entry-Level Technology Credential High as Certiport Delivers 100,000 Microsoft Technology Associate Exams in 18 Months</a><br> 
+    <em>Students Take Advantage of New MTA Program to Validate Essential Technology Knowledge and Explore Academic and Career Options...</em> <a href="/Portal/desktopdefault.aspx?page=Common/PageLibrary/release_012012.html"><img src="/portal/common/imagelibrary/Blue_Arrows.png" width="9" height="8" border="0"></a></p>
+</div>
+
+</div>
+</div>
+    
+<p>&nbsp;</p>
+</div>
+
+
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/Portal/Common/DocumentLibrary/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="/Portal/Common/DocumentLibrary/jScrollPane-1.2.3.min.js"></script>
+<script type="text/javascript" src="/Portal/Common/DocumentLibrary/script.js"></script>
+<script type="text/javascript">
+(function($){
+	$(function(){
+        $(window).on('shown.bs.tab',function(){window.location.hash = $('.nav li.active a').attr('href'); $(window).scrollTop(0);});
+		$('.nav a[href="'+window.location.hash+'"]').tab('show');
+	});
+})(jQuery);
+</script>
